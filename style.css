@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black !important; 
+    color: white !important;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#nav_links>ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+
+}
+#nav_social_link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav_links>ul>li>a{
+    color: white;
+    text-decoration: none;
+    font-family: Ruda;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 8px;
+
+}
+.background-image {
+    background-image: url('Assests/pizza1 1.svg');
+    height: 500px; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 100vw;
+    height: 870px;
+    top: 111px;
+    left: -29px;
+
+}
+.background-image p {
+    position: relative; 
+    top: 20%; 
+    margin-left: 50px;
+    font-family: Quattrocento;
+    font-size: 101px;
+    font-weight: 900;
+}
+h3{
+    position: relative; 
+    top: 30%;
+    font-family: Ruda;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    margin-left: 50px;
+
+
+}
+h1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: Quattrocento;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    margin-top: 80px;
+}
+.line14{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#aboutus_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3opx;
+    padding: 30px;
+
+}
+#aboutus_p{
+    font-family: Ruda;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    text-align: left;
+
+}
+#aboutus_section>img{
+    width: 631px;
+    height: 506px;
+    top: 1368px;
+    left: 949px;
+    border-radius: 10px
+    padding:10px;
+    margin-left: 20px;
+
+}
+#menu_description{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin:30px;
+
+    font-family: Ruda;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0.09em;
+    text-align: left;
+}
+#menu_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    width: 90vw;
+    margin: 70px;
+    padding: 20px;
+
+}
+.menu_item_info{
+    display: inline-block;
+    margin-left: 20px;
+
+    width: 40%;
+
+}
+.menu_item_info>h3{
+    color:rgba(242, 201, 76, 1);
+    font-family: Ruda;
+   font-size: 28px;
+   font-weight: 400;
+   letter-spacing: 0em;
+   text-align: left;
+}
+.menu_item_info>P{
+    width: 316px;
+    height: 120px;
+    top: 2440px;
+    left: 485px;
+    font-family: Ruda;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    text-align: left;
+}
+.caso{
+    width: 1334px;
+    height: 638px;
+    border-radius: 10px;
+
+}
+#carousel{
+    justify-content: center;
+    display:flex;
+    margin: 50px;
+}
+#gallary_section{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+#gallary_image{
+    display: block;
+}
+.img5{
+    width: 274px;
+    height: 302px;
+    top: 4362px;
+    left: 1311px;
+    border-radius: 10px;
+
+}
+.img6{
+    width: 274px
+    height: 200px
+    top: 4362px
+    left: 1024px
+    border-radius: 10px
+      
+}
